@@ -8,12 +8,13 @@ const {
     GraphQLInt,
     GraphQLNonNull,
 } = require('graphql')
+
 const {
     books,
     authors,
 } = require('./data.js')
 
-const app = express()
+const app = express();
 
 const AuthorType = new GraphQLObjectType({
     name: 'Author',

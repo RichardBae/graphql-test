@@ -15,3 +15,6 @@ const books = [
     { id: 8, name: 'Beyond the Shadows', authorId: 3 }
 ]
 
+
+module.exports.books = books;
+module.exports.authors = authors;
